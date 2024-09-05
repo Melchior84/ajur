@@ -31,7 +31,7 @@ def main():
     global sucesso
     global problemas
 
-    arquivo = r"D:\Projetos\Ajur\processos\processos.xlsx"
+    arquivo = r"D:\Projetos\Projeto Ajur\ajur\processos.xlsx"
     dados = pd.read_excel(arquivo)
     totalLinhas = dados.shape[0]
     qtd_graus = 0
@@ -147,7 +147,8 @@ def captcha(navegador):
 
     image_bytes = base64.b64decode(imagem[1])
 
-    caminho_destino = "D:\Projetos\Ajur\processos\captcha.jpg"
+    caminho_destino = r"D:\Projetos\Projeto Ajur\ajur\captcha.jpg"
+    
     
     with open(caminho_destino, "wb") as arquivo:
         arquivo.write(image_bytes)
@@ -170,11 +171,19 @@ def captcha(navegador):
         print(" - Tarefa Captcha Finalizou com erro: "+solver.error_code)
         problemas = problemas + 1
 
-    if os.path.exists(caminho_destino):
-        os.remove(caminho_destino)
-        print(f" - Arquivo captcha deletado com sucesso!")
-    else:
-        print(f" - Arquivo captcha não encontrado.")
+    try:
+        if os.path.exists(caminho_destino):
+            os.remove(caminho_destino)
+            print(f" - Arquivo captcha deletado com sucesso!")
+        else:
+            print(f" - Arquivo captcha não encontrado.")
+    except FileNotFoundError:
+        print(f"O arquivo '{caminho_destino}' não foi encontrado.")
+    except PermissionError:
+        print(f"Você não tem permissão para deletar o arquivo '{caminho_destino}'.")
+    except Exception as e:
+        print(f"Ocorreu um erro inesperado: {str(e)}")
+
 
 def troca_aba(navegador, janela_original):
     for window_handle in navegador.window_handles:
