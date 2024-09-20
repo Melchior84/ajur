@@ -26,12 +26,11 @@ def main():
     print("  RPA Baixar Processos para AJUR   ")
     print("-----------------------------------")
 
-
     global total 
     global sucesso
     global problemas
 
-    arquivo = r"D:\Projetos\Projeto Ajur\ajur\processos.xlsx"
+    arquivo = r"C:\Users\prvf56\OneDrive - PREVI\Projetos\Projeto Ajur\ajur\processos.xlsx"
     dados = pd.read_excel(arquivo)
     totalLinhas = dados.shape[0]
     qtd_graus = 0
@@ -40,7 +39,7 @@ def main():
     print('Total de linhas do arquivo: ' + str(totalLinhas)) 
     print("-----------------------------------")
 
-    for indice, linha in dados.iterrows():
+    for indice, linha in dados[62:].iterrows():
         print(f'Registro ({indice}) - {linha['Matrícula']} - {linha['processo']} - {linha['Nome']} - {linha['site']}')
         total = total + 1
 
@@ -119,7 +118,7 @@ def main():
             # Fecha o WebDriver
             navegador.quit()
         
-        if indice == 10:
+        if indice == 100:
             print("-----------------------------------")
             print("- Atividade finalizada com sucesso.")
             print("- Sucesso: " + str(sucesso))
@@ -147,7 +146,7 @@ def captcha(navegador):
 
     image_bytes = base64.b64decode(imagem[1])
 
-    caminho_destino = r"D:\Projetos\Projeto Ajur\ajur\captcha.jpg"
+    caminho_destino = r"C:\Users\prvf56\OneDrive - PREVI\Projetos\Projeto Ajur\ajur\captcha.jpg"
     
     
     with open(caminho_destino, "wb") as arquivo:
