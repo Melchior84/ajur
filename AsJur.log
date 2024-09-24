@@ -1,0 +1,184 @@
+2024-09-24 09:21:51,118 - INFO - -----------------------------------
+2024-09-24 09:21:51,119 - INFO -   RPA Baixar Processos para AJUR   
+2024-09-24 09:21:51,119 - INFO - -----------------------------------
+2024-09-24 09:21:51,479 - INFO - -----------------------------------
+2024-09-24 09:21:51,481 - INFO - Total de linhas do arquivo: 992
+2024-09-24 09:21:51,481 - INFO - -----------------------------------
+2024-09-24 09:21:51,484 - INFO - Registro (1) - 71020 - 0001171-03.2010.5.02.0085 - ADAIR TIEPPO - https://pje.trt2.jus.br/consultaprocessual/
+2024-09-24 09:22:02,331 - INFO -  - Processos localizados: 2
+2024-09-24 09:22:02,341 - INFO -  - Acessando Grau: 1
+2024-09-24 09:22:12,686 - INFO -  - Texto Captcha: fth94m
+2024-09-24 09:22:21,176 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:22:21,176 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:22:21,176 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:22:23,747 - INFO -  - Acessando Grau: 2
+2024-09-24 09:22:51,281 - INFO - -----------------------------------
+2024-09-24 09:22:51,281 - INFO -   RPA Baixar Processos para AJUR   
+2024-09-24 09:22:51,281 - INFO - -----------------------------------
+2024-09-24 09:22:51,498 - INFO - -----------------------------------
+2024-09-24 09:22:51,498 - INFO - Total de linhas do arquivo: 992
+2024-09-24 09:22:51,498 - INFO - -----------------------------------
+2024-09-24 09:22:51,513 - INFO - Registro (1) - 71020 - 0001171-03.2010.5.02.0085 - ADAIR TIEPPO - https://pje.trt2.jus.br/consultaprocessual/
+2024-09-24 09:23:00,323 - INFO -  - Processos localizados: 2
+2024-09-24 09:23:00,323 - INFO -  - Acessando Grau: 1
+2024-09-24 09:23:10,782 - INFO -  - Texto Captcha: dwfbka
+2024-09-24 09:23:19,293 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:23:19,293 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:23:19,295 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:23:21,841 - INFO -  - Acessando Grau: 2
+2024-09-24 09:23:38,030 - INFO -  - Texto Captcha: uhdrkm
+2024-09-24 09:23:46,513 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:23:46,513 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:23:46,513 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:23:55,786 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AB0B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4203f33b-7ec7-42e6-93a2-037368d78a58
+2024-09-24 09:23:59,855 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A9160>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4203f33b-7ec7-42e6-93a2-037368d78a58
+2024-09-24 09:24:03,898 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A9010>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4203f33b-7ec7-42e6-93a2-037368d78a58
+2024-09-24 09:24:11,958 - INFO - Registro (2) - 75760 - 0043100-10.2009.5.19.0010 - ADALBERTO COUTINHO LEITE - https://pje.trt19.jus.br/consultaprocessual/
+2024-09-24 09:24:21,598 - INFO -  - Processos localizados: Texto não encontrado com a quantidade de processos ou valor inesperado
+2024-09-24 09:24:28,336 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8290>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f9cf2059-b53a-483b-9b27-f2f44a3c11ec
+2024-09-24 09:24:32,372 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8200>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f9cf2059-b53a-483b-9b27-f2f44a3c11ec
+2024-09-24 09:24:36,429 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17ABF50>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/f9cf2059-b53a-483b-9b27-f2f44a3c11ec
+2024-09-24 09:24:44,493 - INFO - Registro (3) - 81360 - 0000454-37.2011.5.04.0202 - ADALBERTO DA ROCHA BRAUN - https://pje.trt10.jus.br/consultaprocessual/
+2024-09-24 09:24:53,634 - INFO -  - Processos localizados: 2
+2024-09-24 09:24:53,634 - INFO -  - Acessando Grau: 1
+2024-09-24 09:25:08,525 - INFO -  - Texto Captcha: sbrb24
+2024-09-24 09:25:17,133 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:25:17,133 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:25:17,133 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:25:19,729 - INFO -  - Acessando Grau: 2
+2024-09-24 09:25:29,598 - INFO -  - Texto Captcha: mm3snn
+2024-09-24 09:25:38,076 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:25:38,076 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:25:38,077 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:25:47,361 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA3C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ccba05b3-f173-44ae-a551-95e5b0af0ea3
+2024-09-24 09:25:51,410 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8A40>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ccba05b3-f173-44ae-a551-95e5b0af0ea3
+2024-09-24 09:25:55,474 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A99D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ccba05b3-f173-44ae-a551-95e5b0af0ea3
+2024-09-24 09:26:03,568 - INFO - Registro (4) - 99740 - 00183.2000.003.13-0 - ADEILTON HILARIO - https://pje.trt13.jus.br/consultaprocessual/
+2024-09-24 09:26:14,098 - WARNING -  - Entrou no captcha e não localizou o elemento
+2024-09-24 09:26:16,830 - INFO - Registro (5) - 122340 - 0000006-93.2011.5.10.0009 - ADEMAR PERPETUO DE MENEZES - https://pje.trt10.jus.br/consultaprocessual/
+2024-09-24 09:26:30,142 - INFO -  - Processos localizados: 0
+2024-09-24 09:26:36,857 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA300>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4876c5f8-51b5-429c-af9f-7b9c6343d187
+2024-09-24 09:26:40,909 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AAC90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4876c5f8-51b5-429c-af9f-7b9c6343d187
+2024-09-24 09:26:44,956 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA840>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4876c5f8-51b5-429c-af9f-7b9c6343d187
+2024-09-24 09:26:53,041 - INFO - Registro (6) - 124990 - 0177200-30.1998.5.05.0024 - ADEMARIO ARAUJO FIGUEIREDO - https://pje.trt5.jus.br/consultaprocessual/
+2024-09-24 09:27:03,204 - INFO -  - Processos localizados: 2
+2024-09-24 09:27:03,204 - INFO -  - Acessando Grau: 1
+2024-09-24 09:27:13,393 - INFO -  - Texto Captcha: yd36wh
+2024-09-24 09:27:34,044 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:27:34,044 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:27:34,044 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:27:36,580 - INFO -  - Acessando Grau: 2
+2024-09-24 09:27:46,826 - INFO -  - Texto Captcha: w57wx9
+2024-09-24 09:27:55,295 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:27:55,295 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:27:55,299 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:28:04,574 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8C50>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/948171e4-9bb1-45c9-a73d-136d96f6f982
+2024-09-24 09:28:08,609 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA780>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/948171e4-9bb1-45c9-a73d-136d96f6f982
+2024-09-24 09:28:12,658 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AAF90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/948171e4-9bb1-45c9-a73d-136d96f6f982
+2024-09-24 09:28:20,758 - INFO - Registro (7) - 125999 - 0016200-96.2004.5.09.0671 - ADEMIR ANISIO SPADA - https://pje.trt9.jus.br/consultaprocessual/
+2024-09-24 09:28:31,209 - INFO -  - Processos localizados: 0
+2024-09-24 09:28:37,895 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AB2F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/dd776607-6d0b-440d-a7b0-25f1e1899cc7
+2024-09-24 09:28:41,958 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA3C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/dd776607-6d0b-440d-a7b0-25f1e1899cc7
+2024-09-24 09:28:45,990 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8FB0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/dd776607-6d0b-440d-a7b0-25f1e1899cc7
+2024-09-24 09:28:54,072 - INFO - Registro (8) - 126023 - 0000261-93.2011.5.15.0144 - ADEMIR BEIRA COLEONE - https://pje.trt15.jus.br/consultaprocessual/
+2024-09-24 09:29:17,241 - INFO -  - Texto Captcha: bkhwkr
+2024-09-24 09:29:25,734 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:29:25,734 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:29:25,737 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:29:28,321 - INFO - Registro (9) - 126268 - 0536200-40.2008.5.09.0018 - ADEMIR MANGANARO - https://pje.trt9.jus.br/consultaprocessual/
+2024-09-24 09:29:46,742 - INFO -  - Processos localizados: 2
+2024-09-24 09:29:46,742 - INFO -  - Acessando Grau: 1
+2024-09-24 09:30:00,996 - INFO -  - Texto Captcha: wxd4fe
+2024-09-24 09:30:09,503 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:30:09,503 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:30:09,503 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:30:12,052 - INFO -  - Acessando Grau: 2
+2024-09-24 09:30:21,882 - INFO -  - Texto Captcha: msxrdw
+2024-09-24 09:30:30,368 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:30:30,368 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:30:30,368 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:30:39,623 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8380>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/33dcc20a-8f1c-46ca-81d4-23b22b3baf26
+2024-09-24 09:30:43,687 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17ABEC0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/33dcc20a-8f1c-46ca-81d4-23b22b3baf26
+2024-09-24 09:30:47,752 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AB890>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/33dcc20a-8f1c-46ca-81d4-23b22b3baf26
+2024-09-24 09:30:55,872 - INFO - Registro (10) - 126306 - 0308100-54.2007.5.09.0322 - ADEMIR RODOLFO KREHER - https://pje.trt9.jus.br/consultaprocessual/
+2024-09-24 09:31:14,652 - INFO -  - Texto Captcha: dkm4wy
+2024-09-24 09:31:23,135 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:31:23,135 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:31:23,137 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:31:25,782 - INFO - Registro (11) - 142680 - 0094300-20.2009.5.10.0006 - ADIEL PEREIRA BICALHO - https://pje.trt10.jus.br/consultaprocessual/
+2024-09-24 09:31:39,486 - INFO -  - Processos localizados: 0
+2024-09-24 09:31:46,310 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A92E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2da5f134-4e4a-46e9-80cd-a08312de7488
+2024-09-24 09:31:50,354 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A80B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2da5f134-4e4a-46e9-80cd-a08312de7488
+2024-09-24 09:31:54,419 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA840>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2da5f134-4e4a-46e9-80cd-a08312de7488
+2024-09-24 09:32:02,538 - INFO - Registro (12) - 143860 - 0000708-95.2010.5.05.0661 - ADILMAR DIAS MAIA - https://pje.trt5.jus.br/consultaprocessual/
+2024-09-24 09:32:21,067 - INFO -  - Texto Captcha: m3ftvj
+2024-09-24 09:32:29,556 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:32:29,556 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:32:29,558 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:32:32,105 - INFO - Registro (13) - 177840 - 0000328-33.2011.5.05.0016 - ADROALDO PARDAL GARCIA - https://pje.trt5.jus.br/consultaprocessual/
+2024-09-24 09:32:47,514 - INFO -  - Processos localizados: 2
+2024-09-24 09:32:47,514 - INFO -  - Acessando Grau: 1
+2024-09-24 09:32:57,886 - INFO -  - Texto Captcha: xvm238
+2024-09-24 09:33:06,373 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:33:06,373 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:33:06,374 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:33:08,920 - INFO -  - Acessando Grau: 2
+2024-09-24 09:33:19,230 - INFO -  - Texto Captcha: swryms
+2024-09-24 09:33:27,716 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:33:27,716 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:33:27,718 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:33:36,821 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AB020>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/905af45c-cb92-43c0-8987-0f2383c13f71
+2024-09-24 09:33:40,868 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E13372F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/905af45c-cb92-43c0-8987-0f2383c13f71
+2024-09-24 09:33:44,913 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E13346E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/905af45c-cb92-43c0-8987-0f2383c13f71
+2024-09-24 09:33:53,020 - INFO - Registro (14) - 200620 - 0104100-13.2009.5.04.0403 - AFONSO PIRES FARIA - https://pje.trt4.jus.br/consultaprocessual/
+2024-09-24 09:34:02,783 - INFO -  - Processos localizados: 2
+2024-09-24 09:34:02,783 - INFO -  - Acessando Grau: 1
+2024-09-24 09:34:25,176 - INFO -  - Texto Captcha: 6k3ry3
+2024-09-24 09:34:33,667 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:34:33,667 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:34:33,667 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:34:36,203 - INFO -  - Acessando Grau: 2
+2024-09-24 09:34:46,057 - INFO -  - Texto Captcha: verwj7
+2024-09-24 09:34:54,533 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:34:54,533 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:34:54,533 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:35:03,737 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AB3B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d847bdaf-6aa7-4bf3-ad09-759b21b5bb89
+2024-09-24 09:35:07,751 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8B30>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d847bdaf-6aa7-4bf3-ad09-759b21b5bb89
+2024-09-24 09:35:11,802 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA120>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d847bdaf-6aa7-4bf3-ad09-759b21b5bb89
+2024-09-24 09:35:19,858 - INFO - Registro (15) - 201930 - 0143700-54.2009.5.05.0034 - AFONSO SAMPAIO FILHO - https://pje.trt5.jus.br/consultaprocessual/
+2024-09-24 09:35:31,160 - INFO -  - Processos localizados: 0
+2024-09-24 09:35:37,862 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AB7A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4e4a4191-b5c6-4451-96a1-0f613fff87ce
+2024-09-24 09:35:41,890 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA240>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4e4a4191-b5c6-4451-96a1-0f613fff87ce
+2024-09-24 09:35:45,953 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A9D30>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/4e4a4191-b5c6-4451-96a1-0f613fff87ce
+2024-09-24 09:35:54,028 - INFO - Registro (16) - 212570 - 0096800-11.2007.5.05.0025 - AGAMENON GOMES DE MEDEIROS - https://pje.trt5.jus.br/consultaprocessual/
+2024-09-24 09:36:05,146 - INFO -  - Processos localizados: 0
+2024-09-24 09:36:11,903 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A88C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/5ec5225c-56c0-4d73-845c-2426623af544
+2024-09-24 09:36:15,982 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AB890>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/5ec5225c-56c0-4d73-845c-2426623af544
+2024-09-24 09:36:20,022 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E1335160>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/5ec5225c-56c0-4d73-845c-2426623af544
+2024-09-24 09:36:28,101 - INFO - Registro (17) - 212630 - 0097200-64.2009.5.10.0009 - AGAPITO AFONSECA MARTINS - https://pje.trt10.jus.br/consultaprocessual/
+2024-09-24 09:36:37,296 - INFO -  - Processos localizados: 2
+2024-09-24 09:36:37,296 - INFO -  - Acessando Grau: 1
+2024-09-24 09:36:53,848 - INFO -  - Texto Captcha: 9rx8b5
+2024-09-24 09:37:02,337 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:37:02,338 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:37:02,340 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:37:04,895 - INFO -  - Acessando Grau: 2
+2024-09-24 09:37:15,503 - INFO -  - Texto Captcha: rwfws2
+2024-09-24 09:37:23,965 - INFO -  - Processo salvo com sucesso.
+2024-09-24 09:37:23,965 - INFO -  - Arquivo captcha deletado com sucesso!
+2024-09-24 09:37:23,965 - INFO -  - Arquivo renomeado e movido.
+2024-09-24 09:37:33,266 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E1334B60>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/35aaf2aa-b56f-4ccf-95f5-34b28fbc4082
+2024-09-24 09:37:49,463 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E1326C60>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/35aaf2aa-b56f-4ccf-95f5-34b28fbc4082
+2024-09-24 09:37:53,515 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E149E3F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/35aaf2aa-b56f-4ccf-95f5-34b28fbc4082
+2024-09-24 09:38:01,631 - INFO - Registro (18) - 231720 - 0110900-32.2007.5.09.0195 - AGOSTINHO ANDERLE - https://pje.trt9.jus.br/consultaprocessual/
+2024-09-24 09:38:12,082 - INFO -  - Processos localizados: 0
+2024-09-24 09:38:18,783 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8D70>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/6b98045f-0a82-4c3b-a74d-b98da100ad92
+2024-09-24 09:38:22,831 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A87D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/6b98045f-0a82-4c3b-a74d-b98da100ad92
+2024-09-24 09:38:26,893 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8800>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/6b98045f-0a82-4c3b-a74d-b98da100ad92
+2024-09-24 09:38:35,003 - INFO - Registro (19) - 240020 - 0000008-64.2011.5.02.0016 - AGUEDA DE FATIMA SENDAS LOPES - https://pje.trt2.jus.br/consultaprocessual/
+2024-09-24 09:38:44,003 - INFO -  - Processos localizados: 0
+2024-09-24 09:38:50,726 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8890>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/113ac785-52e6-4d6a-bebe-0967629202a1
+2024-09-24 09:38:54,808 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17AA840>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/113ac785-52e6-4d6a-bebe-0967629202a1
+2024-09-24 09:38:58,851 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B2E17A8B90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/113ac785-52e6-4d6a-bebe-0967629202a1
+2024-09-24 09:39:06,943 - INFO - Registro (20) - 249830 - 0057700-29.2009.5.05.0009 - AILTON MARTINS DE OLIVEIRA - https://pje.trt5.jus.br/consultaprocessual/
+2024-09-24 09:39:17,362 - INFO -  - Processos localizados: 0

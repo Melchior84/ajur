@@ -2,6 +2,8 @@ import time
 import base64
 import os
 import pandas as pd
+import shutil
+import logging
 
 from codeKey import codigo_Melk
 
@@ -21,10 +23,11 @@ problemas = 0
 
 
 def main(): 
+    logging.basicConfig(filename='AsJur.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-    print("-----------------------------------")
-    print("  RPA Baixar Processos para AJUR   ")
-    print("-----------------------------------")
+    grava_log("-----------------------------------", 'I')
+    grava_log("  RPA Baixar Processos para AJUR   ", 'I')
+    grava_log("-----------------------------------", 'I')
 
     global total 
     global sucesso
@@ -35,12 +38,12 @@ def main():
     totalLinhas = dados.shape[0]
     qtd_graus = 0
 
-    print("-----------------------------------")
-    print('Total de linhas do arquivo: ' + str(totalLinhas)) 
-    print("-----------------------------------")
+    grava_log("-----------------------------------", 'I')
+    grava_log('Total de linhas do arquivo: ' + str(totalLinhas), 'I') 
+    grava_log("-----------------------------------", 'I')
 
-    for indice, linha in dados[62:].iterrows():
-        print(f'Registro ({indice}) - {linha['Matrícula']} - {linha['processo']} - {linha['Nome']} - {linha['site']}')
+    for indice, linha in dados[21:].iterrows():
+        grava_log(f'Registro ({indice}) - {linha['Matrícula']} - {linha['processo']} - {linha['Nome']} - {linha['site']}', 'I')
         total = total + 1
 
         url = linha['site']
@@ -59,22 +62,22 @@ def main():
             qtd_processos = h1.text
 
             if "0 processos encontrados" in qtd_processos:
-                print(" - Processos localizados: 0")
+                grava_log(" - Processos localizados: 0", 'I')
                 qtd_graus = 0
                 problemas = problemas + 1
             elif "1 processos encontrados" in qtd_processos:
-                print(" - Processos localizados: 1")
+                grava_log(" - Processos localizados: 1", 'I')
                 qtd_graus = 1
             elif "2 processos encontrados" in qtd_processos:
-                print(" - Processos localizados: 2")
+                grava_log(" - Processos localizados: 2", 'I')
                 qtd_graus = 2
             else:
-                print(" - Processos localizados: Texto não encontrado com a quantidade de processos ou valor inesperado")    
+                grava_log(" - Processos localizados: Texto não encontrado com a quantidade de processos ou valor inesperado", 'I')    
                 problemas = problemas + 1
                 qtd_graus = 0
 
             for qtd in range(1, qtd_graus + 1):
-                print(" - Acessando Grau: " + str(qtd))
+                grava_log(" - Acessando Grau: " + str(qtd), 'I')
                 
                 try:
                     botao_grau = botao_pesquisar = navegador.find_element(By.XPATH, f"/html/body/pje-root/main/pje-lista-processo/div[1]/button[{qtd}]")                                                                                             
@@ -83,6 +86,8 @@ def main():
                     time.sleep(2)
 
                     captcha(navegador)
+
+                    renomear_arquivo(linha['Nome'], linha['processo'], qtd)
 
                     troca_aba(navegador, janela_original)
 
@@ -106,12 +111,13 @@ def main():
             try:
                 navegador.find_element(By.XPATH, '//*[@id="painelCaptcha"]')
                 captcha(navegador)
+                renomear_arquivo(linha['Nome'], linha['processo'], 1)
             except NoSuchElementException:
-                print(" - Entrou no captcha e não localizou o elemento")
+                grava_log(" - Entrou no captcha e não localizou o elemento", 'W')
                 problemas = problemas + 1
             
         except ElementClickInterceptedException:
-            print(" - Não foi possível clicar no botão")
+            grava_log(" - Não foi possível clicar no botão", 'W')
             problemas = problemas + 1
 
         finally:
@@ -119,12 +125,12 @@ def main():
             navegador.quit()
         
         if indice == 100:
-            print("-----------------------------------")
-            print("- Atividade finalizada com sucesso.")
-            print("- Sucesso: " + str(sucesso))
-            print("- Erro: " + str(problemas))
-            print("- Total: " + str(total))
-            print("-----------------------------------")
+            grava_log("-----------------------------------", 'I')
+            grava_log("- Atividade finalizada com sucesso.", 'I')
+            grava_log("- Sucesso: " + str(sucesso), 'I')
+            grava_log("- Erro: " + str(problemas), 'I')
+            grava_log("- Total: " + str(total), 'I')
+            grava_log("-----------------------------------", 'I')
             break
 
 
@@ -157,31 +163,31 @@ def captcha(navegador):
     captcha_text = solver.solve_and_return_solution("captcha.jpg")
 
     if captcha_text != 0:
-        print(" - Texto Captcha: "+captcha_text)
+        grava_log(" - Texto Captcha: "+captcha_text, 'I')
         navegador.find_element(By.ID, "captchaInput").send_keys(captcha_text)
         navegador.find_element(By.ID, "btnEnviar").click()
         time.sleep(1)
         navegador.find_element(By.ID, "btnDownloadIntegra").click()
-        time.sleep(7)
-        print(" - Processo salvo com sucesso.")
+        time.sleep(5)
+        grava_log(" - Processo salvo com sucesso.", 'I')
         sucesso = sucesso + 1
 
     else:
-        print(" - Tarefa Captcha Finalizou com erro: "+solver.error_code)
+        grava_log(" - Tarefa Captcha Finalizou com erro: "+solver.error_code, 'E')
         problemas = problemas + 1
 
     try:
         if os.path.exists(caminho_destino):
             os.remove(caminho_destino)
-            print(f" - Arquivo captcha deletado com sucesso!")
+            grava_log(f" - Arquivo captcha deletado com sucesso!", 'I')
         else:
-            print(f" - Arquivo captcha não encontrado.")
+            grava_log(f" - Arquivo captcha não encontrado.", 'E')
     except FileNotFoundError:
-        print(f"O arquivo '{caminho_destino}' não foi encontrado.")
+        grava_log(f"O arquivo '{caminho_destino}' não foi encontrado.", 'E')
     except PermissionError:
-        print(f"Você não tem permissão para deletar o arquivo '{caminho_destino}'.")
+        grava_log(f"Você não tem permissão para deletar o arquivo '{caminho_destino}'.", 'E')
     except Exception as e:
-        print(f"Ocorreu um erro inesperado: {str(e)}")
+        grava_log(f"Ocorreu um erro inesperado: {str(e)}", 'E')
 
 
 def troca_aba(navegador, janela_original):
@@ -197,6 +203,59 @@ def inserir_processo(navegador, processo):
     botao_pesquisar = navegador.find_element(By.ID, "btnPesquisar")
     botao_pesquisar.click()
     time.sleep(2)
+
+import os
+import shutil
+
+def renomear_arquivo(nome, numero_processo, instancia):
+    # Diretório de downloads
+    downloads_dir = os.path.expanduser('~/Downloads')
+    # Diretório de destino
+    destino_dir = f'C:/temp/{nome}_{numero_processo}'
+
+    # Listar arquivos PDF no diretório de downloads
+    arquivos = [f for f in os.listdir(downloads_dir) if f.endswith('.pdf')]
+
+    # Encontrar o arquivo com o número do processo
+    arquivo_encontrado = None
+    for arquivo in arquivos:
+        if numero_processo in arquivo:
+            arquivo_encontrado = arquivo
+            break
+
+    if arquivo_encontrado:
+        # Criar diretório de destino se não existir
+        os.makedirs(destino_dir, exist_ok=True)
+
+        # Novo nome do arquivo com base na instância
+        novo_nome = f'{nome}_{numero_processo}_Grau_{instancia}.pdf'
+        # Caminho completo do arquivo encontrado e do novo arquivo
+        caminho_arquivo_encontrado = os.path.join(downloads_dir, arquivo_encontrado)
+        caminho_novo_arquivo = os.path.join(destino_dir, novo_nome)
+
+        # Renomear e mover o arquivo
+        shutil.move(caminho_arquivo_encontrado, caminho_novo_arquivo)
+        grava_log(f' - Arquivo renomeado e movido.', 'I')
+    else:
+        grava_log(' - Arquivo não encontrado com o número do processo fornecido.', 'E')
+
+def grava_log(mensagem, tipo):
+
+    if tipo == 'D':
+        logging.debug(mensagem)
+    elif tipo == 'I':
+        logging.info(mensagem)
+    elif tipo == 'W':
+        logging.warning(mensagem)
+    elif tipo == 'E':
+        logging.error(mensagem)
+    elif tipo == 'C':
+        logging.critical(mensagem)
+    else:
+        logging.info(mensagem)
+    
+    print(mensagem)
+
 
 
 if __name__ == "__main__":
